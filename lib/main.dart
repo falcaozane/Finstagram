@@ -1,7 +1,7 @@
-import 'package:finstagram/pages/home_page.dart';
-import 'package:finstagram/pages/login_page.dart';
-import 'package:finstagram/pages/register_page.dart';
-import 'package:finstagram/services/firebase_service.dart';
+import './pages/home_page.dart';
+import './pages/login_page.dart';
+import './pages/register_page.dart';
+import './services/firebase_service.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:get_it/get_it.dart';
@@ -11,7 +11,7 @@ void main() async {
   await Firebase.initializeApp();
   GetIt.instance.registerSingleton<FirebaseService>(
     FirebaseService(),
-    );
+  );
   runApp(const MyApp());
 }
 

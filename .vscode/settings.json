@@ -1,4 +1,3 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
-    "cmake.sourceDirectory": "${workspaceFolder}/windows/flutter"
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

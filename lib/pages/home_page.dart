@@ -1,5 +1,5 @@
-import 'package:finstagram/pages/feed_page.dart';
-import 'package:finstagram/pages/profile_page.dart';
+import '/pages/feed_page.dart';
+import '/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _currentPage = 0;
-  final List<Widget> _pages =  [
+  final List<Widget> _pages = [
     FeedPage(),
     ProfilePage(),
   ];

@@ -1,4 +1,4 @@
-# finstagram
+# hack_cres
 
 A new Flutter project.
 
